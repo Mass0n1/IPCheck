@@ -14,9 +14,9 @@ def enviar_email():
 
     msg = email.message.Message()
     msg['Subject'] = "AVISO - Servidor Offline"
-    msg['From'] = 'prmassoni@gmail.com'
-    msg['To'] = 'prmassoni@gmail.com'
-    password = 'fxoaialcjwtdvnzo'
+    msg['From'] = ''
+    msg['To'] = ''
+    password = ''
     msg.add_header('Content-Type', 'text/html')
     msg.set_payload(corpo_email )
 
